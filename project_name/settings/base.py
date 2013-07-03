@@ -1,4 +1,5 @@
 # Django settings for dj_layout project.
+from django.conf.global_settings import * 
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
