@@ -53,6 +53,7 @@ import {{ project_name }} as project_module
 
 PROJECT_DIR = os.path.dirname(os.path.realpath(project_module.__file__))
 BASE_PATH     = os.path.dirname(PROJECT_DIR)
+sys.path.insert(0, os.path.join(BASE_PATH, "apps"))
 
 media_dir = os.path.join(BASE_PATH, 'media')
 
