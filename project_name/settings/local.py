@@ -30,12 +30,15 @@ DATABASES = {
 
 INSTALLED_APPS += (
     'debug_toolbar',
+    'discover_runner',
   
 )
 
 #==============================================================================
 # Miscellaneous local settings
 #==============================================================================
+
+TEST_RUNNER = 'discover_runner.DiscoverRunner'
 
 #Debug toolbar settings
 #----------------------
