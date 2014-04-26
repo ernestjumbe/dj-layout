@@ -30,7 +30,6 @@ DATABASES = {
 
 INSTALLED_APPS += (
     'debug_toolbar',
-    'discover_runner',
   
 )
 
